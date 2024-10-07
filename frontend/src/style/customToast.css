@@ -1,0 +1,12 @@
+.Toastify__toast--info {
+    background: linear-gradient(to right, #ffad42, #ea580c);
+    color: white;
+    font-size: 13px;
+  }
+
+  .Toastify__toast--error {
+    background: linear-gradient(to right, #ffad42, #ea580c);
+    color: white;
+    font-size: 13px;
+  }
+

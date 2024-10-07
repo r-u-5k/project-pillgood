@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "strict": false, // 기본적인 strict 옵션을 비활성화합니다.
+    "noImplicitAny": false, // any 타입을 묵시적으로 허용합니다.
+    "strictNullChecks": false, // null 및 undefined를 엄격하게 검사하지 않습니다.
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    //    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src", "lib"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
